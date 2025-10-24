@@ -1,0 +1,33 @@
+:root {
+    /* Cores principais do logotipo */
+    --color-primary: #D4AF37; /* Dourado */
+    --color-secondary: #585858; /* Cinza escuro (fundo do logotipo) */
+    
+    /* Cores de texto e fundo */
+    --color-text-dark: #333333;
+    --color-text-light: #ffffff;
+    --color-background-light: #f8f9fa;
+    --color-background-dark: #212529;
+
+    /* Cores para o dashboard */
+    --color-dashboard-bg: #f4f6f9;
+    --color-card-bg: #ffffff;
+    --color-sidebar-bg: #585858; /* Usando o cinza escuro do logo */
+    --color-sidebar-text: #ffffff;
+    --color-sidebar-active: #D4AF37;
+}
+
+/* Estilos básicos para aplicar as cores */
+body {
+    background-color: var(--color-background-light);
+    color: var(--color-text-dark);
+}
+
+a {
+    color: var(--color-primary);
+}
+
+a:hover {
+    color: #B8860B; /* Um dourado um pouco mais escuro para hover */
+}
+

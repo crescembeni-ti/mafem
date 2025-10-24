@@ -1,0 +1,67 @@
+@import url('variables.css');
+
+/* Estilos específicos da página de boas-vindas (welcome.blade.php) */
+
+.welcome-page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+    background-color: var(--color-background-light);
+}
+
+.welcome-header {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.welcome-logo {
+    width: 150px; /* Ajuste conforme necessário */
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.welcome-title {
+    font-size: 2.5rem;
+    color: var(--color-text-dark);
+    margin-bottom: 10px;
+}
+
+.welcome-subtitle {
+    font-size: 1.2rem;
+    color: var(--color-secondary);
+}
+
+.welcome-links a {
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--color-primary);
+    transition: color 0.3s ease;
+}
+
+.welcome-links a:hover {
+    color: #B8860B; /* Dourado mais escuro */
+    text-decoration: underline;
+}
+
+/* Estilos para o link de login/registro no canto superior direito (se aplicável) */
+.top-right-links {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.top-right-links a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: var(--color-text-dark);
+    font-weight: 500;
+}
+
+.top-right-links a:hover {
+    color: var(--color-primary);
+}
+

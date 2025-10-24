@@ -1,0 +1,85 @@
+@import url('variables.css');
+
+/* Estilos gerais para páginas de conteúdo (Home, Blog, Projetos, etc.) */
+
+/* Cabeçalho e Navegação */
+.main-header {
+    background-color: var(--color-background-light);
+    border-bottom: 1px solid #e9ecef;
+    padding: 15px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.site-logo {
+    width: 50px; /* Ajuste conforme necessário */
+    height: auto;
+}
+
+.nav-links a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: var(--color-text-dark);
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: var(--color-primary);
+}
+
+/* Conteúdo Principal */
+.main-content-area {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+.content-title {
+    font-size: 2rem;
+    color: var(--color-primary);
+    margin-bottom: 20px;
+    border-bottom: 2px solid var(--color-primary);
+    padding-bottom: 10px;
+}
+
+.content-section {
+    margin-bottom: 40px;
+}
+
+/* Estilos de Botões */
+.btn-primary {
+    background-color: var(--color-primary);
+    color: var(--color-text-light);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #B8860B;
+}
+
+/* Rodapé */
+.main-footer {
+    background-color: var(--color-secondary);
+    color: var(--color-text-light);
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.footer-text {
+    margin: 0;
+}
+
